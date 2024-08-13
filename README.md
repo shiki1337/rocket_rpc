@@ -402,7 +402,7 @@ wrk -c 1000 -t 8 -d 30 --latency 'http://127.0.0.1:19999/qps?id=1'
 
 ```
 // IO 线程为 4, 并发连接 1000 的测试结果
-[ikerli@localhost bin]$ wrk -c 1000 -t 8 -d 30 --latency 'http://127.0.0.1:19999/qps?id=1'
+[shiki@localhost bin]$ wrk -c 1000 -t 8 -d 30 --latency 'http://127.0.0.1:19999/qps?id=1'
 Running 30s test @ http://127.0.0.1:19999/qps?id=1
   8 threads and 1000 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
