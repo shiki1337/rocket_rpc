@@ -380,7 +380,7 @@ protoc --cpp_out=./ order.proto
 
 
 
-## 2. 性能测试
+# 性能测试
 Rocket-RPC 底层使用的是 Reactor 架构，同时又结合了多线程，其性能是能得到保障的。进行几个简单的性能测试结果如下：
 ### 2.1. HTTP echo 测试 QPS
 测试机配置信息：Centos**虚拟机**，内存**6G**，CPU为**4核**
