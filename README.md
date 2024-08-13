@@ -1,10 +1,7 @@
 #ROCKET_RPC
 
 ## 1.总览
-rocket 是基于 C++11 开发的一款多线程的异步 RPC 框架，它旨在高效、简洁的同时，又保持至极高的性能。
-
 rocket 基于主从 Reactor 架构，底层采用 epoll 实现 IO 多路复用。应用层则基于 protobuf 自定义 rpc 通信协议，同时也将支持简单的 HTTP 协议。
-
 rocket 是基于 C++11 开发的异步 RPC 框架，它的特点如下：
 - 性能高：主从 Reactor 架构，多线程并发处理. 底层通过 epoll 多路复用
 - 异步：支持异步 RPC 调用，主调方需要同步等待返回
